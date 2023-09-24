@@ -7,7 +7,7 @@ int quantidadeVogais(char *nome);
 int main()
 {
     char *nome=(char*) (malloc(sizeof(char) * MAX));
-
+    printf("Achar Vogal");
     printf("\nDigite seu nome: ");
     scanf("%s", nome);
     printf("\n Esse nome %d vogais.", quantidadeVogais(nome));
